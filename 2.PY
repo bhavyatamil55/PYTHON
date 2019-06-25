@@ -1,7 +1,9 @@
-a=10
-if(a%2==0):
-    print("odd")
+a=int(input())
+if(a>0):
+    if(a%2==0):
+        print("Even")
+    else:
+        print("Odd")
 else:
-    print("even")
-    
+    print("invalid")
     
