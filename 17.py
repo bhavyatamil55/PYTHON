@@ -4,7 +4,7 @@ v=b
 while(v>0):
   f=v%10
 s=s+(f**3)
-  v=v//10
+v=v//10
 if(b==s):
   print("yes")
 else:
