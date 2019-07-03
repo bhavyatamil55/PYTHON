@@ -1,0 +1,5 @@
+pqr,min1=map(int,input().split())
+abc,min2=map(int,input().split())
+gg=abs(pqr-abc)
+maha=abs(min1-min2)
+print(gg,maha)
