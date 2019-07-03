@@ -1,0 +1,5 @@
+bhav=int(input())
+sur=list(map(int,input().split()[:bhav]))
+sur.sort()
+mah=int((len(sur))/2)
+print(validd[mah])
