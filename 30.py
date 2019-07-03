@@ -1,0 +1,5 @@
+b,s=map(int,input().split())
+z,e=map(int,input().split())
+m=abs(b-z)
+k=abs(z-e)
+print(m,k)
