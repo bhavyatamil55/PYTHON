@@ -1,0 +1,5 @@
+app,nut=input().split()
+app=int(app)
+nut=int(nut)
+zik=list(map(int,input().split()))
+print(zik[nut-1])
